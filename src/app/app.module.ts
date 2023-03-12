@@ -7,6 +7,7 @@ import { FirstComponentComponent } from './first-component/first-component.compo
 import { TwowayComponent } from './twoway/twoway.component';
 import {FormsModule} from '@angular/forms';
 import { SecondComponentComponent } from './second-component/second-component.component';
+import { SignInCheckComponent } from './sign-in-check/sign-in-check.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { SecondComponentComponent } from './second-component/second-component.co
     FirstComponentComponent,
     TwowayComponent,
     SecondComponentComponent,
+    SignInCheckComponent,
 
 ],
   imports: [
